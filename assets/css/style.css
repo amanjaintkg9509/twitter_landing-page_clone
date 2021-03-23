@@ -11,17 +11,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 ul{
     list-style-type: none;
     font-size: 20px;
     padding: 0;
+    margin: 0;
 }
 
 .left-menu{
     position: fixed;
     left: 10%;
+    width: 240px;
 }
 
 .radius{
@@ -44,6 +47,9 @@ button{
     border: none;
     width: 100%;
     height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 30px 0;
 }
 
 .search-input{
@@ -58,20 +64,134 @@ button{
 .aside-div{
     position: absolute;
     top: 1px;
-    right: 10%;
+    right: 7%;
+    width: 20.6%;
 }
 
 .section-header{
     position: fixed;
-    width: 40%;
+    width: 38.4%;
     padding: 10px;
     background: white;
     top: 0;
     font-weight: bold;
     font-size: 20px;
+    border-bottom: 1px solid #e2e7e1;
+}
+
+.input-text{
+    border: none;
+    height: 50px;
+    font-size: larger;
+    margin: 20px 0 0 0;
+}
+
+.img{
+    margin: 0 0 0 50px;
+    border-radius: 20px
+}
+
+
+.under-line{
+    border-bottom: 0.2px solid #ddd5d5;
+    padding: 0 0 8px 0;
+    margin: 0 0;
+}
+
+.simple-text{
+    font: inherit;
+    font-size: 12px;
+    color: rgb(91, 112, 131);
+}
+
+.bold{
+    font-weight: bold;
+    color:black;
+    font-size: 15px;
+}
+
+.user-img-pad{
+    padding: 25px 12px;
+}
+
+a>svg{
+    fill: rgba(29,161,242,1.00);
+    height: 22px;
+    width: 22px;
+}
+
+section{
+    border-left: 1px solid #e2e7e1;
+    border-radius: 5px;
+    border-right: 1px solid #e2e7e1;
+    border-color: darkgrey;
+    position: relative;
+}
+
+.under-post{
+    min-height: 40px;
+    height: auto;
+    background: #7fd6ff78;
+    width: 25%;
+    margin: 0 0 5px 190px;
+}
+a{
+    padding: 0 8px 0 0;
+    text-decoration: blink;
+    color:rgb(70, 217, 243);
+}
+
+.home-side-svg{
+    height: 22.5px;
+    width: 22.5px;
+    float: right;
+}
+
+.ul-follow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top-margin{
+    margin: 20px 0;
+}
+.post-card{
+    position: static;
+    border-bottom: 1px solid  #e2e7e1;
 }
 
 .post-list{
     padding: 30px 0 ;
 }
 
+.time-line{
+    padding: 15px;
+    border: 0 solid;
+    border-radius: 20px;
+    background-color: rgb(247, 249, 250);
+    border-color: rgb(247, 249, 250);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%)
+}
+h2{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+aside{
+    padding: 40px 0 ;
+}
+
+.header-bottom{
+    position: fixed;
+    bottom:3%;
+}
+
+.user-img{
+    border-radius: 50%;
+}
+
+.user-name{
+    float: right;
+    padding: 0 20px;
+}

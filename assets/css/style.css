@@ -59,6 +59,7 @@ button{
     position: fixed;
     height: 44px;
     width: 304px;
+    outline: none;
 }
 
 .aside-div{
@@ -84,6 +85,8 @@ button{
     height: 50px;
     font-size: larger;
     margin: 20px 0 0 0;
+    width: 100%;
+    outline: none;
 }
 
 .img{
@@ -110,6 +113,27 @@ button{
     font-size: 15px;
 }
 
+.post-icon-svg{
+    height: 18.75px;
+    width: 18.75px;
+    fill:rgb(97, 95, 95);
+}
+
+.flex-main-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-content{
+    flex: auto;
+}
+
+p{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .user-img-pad{
     padding: 25px 12px;
 }
@@ -127,6 +151,23 @@ section{
     border-color: darkgrey;
     position: relative;
 }
+.menu-list{
+    text-decoration: blink;
+    color:black;  
+}
+.home-side-svg:hover{
+    padding: 5px;
+    border-radius: 100%;
+    background: rgb(29 161 242 / 37%);
+}
+
+.menu-list:hover{
+    background: rgb(29 161 242 / 37%);
+    padding: 8px 8px 8px 8px;
+    border-radius: 100px;
+    fill: rgb(29, 161, 242);
+    color: rgb(29 161 242);
+}
 
 .under-post{
     min-height: 40px;
@@ -138,9 +179,21 @@ section{
 a{
     padding: 0 8px 0 0;
     text-decoration: blink;
-    color:rgb(70, 217, 243);
+    color:rgb(29, 161, 242);
+}
+.svg-menu-icon{
+    height: 24.5px;
+    width: 22.18px;
 }
 
+.last-follow{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    padding: 50px;
+    font-size: 20px;
+}
 .home-side-svg{
     height: 22.5px;
     width: 22.5px;
@@ -151,6 +204,7 @@ a{
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 100%;
 }
 
 .top-margin{
@@ -158,7 +212,7 @@ a{
 }
 .post-card{
     position: static;
-    border-bottom: 1px solid  #e2e7e1;
+    border-bottom: 16px solid  #e2e7e1;
 }
 
 .post-list{
@@ -171,7 +225,6 @@ a{
     border-radius: 20px;
     background-color: rgb(247, 249, 250);
     border-color: rgb(247, 249, 250);
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%)
 }
 h2{
     font-size: 20px;

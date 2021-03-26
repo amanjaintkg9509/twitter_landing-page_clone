@@ -25,6 +25,9 @@ ul{
     position: fixed;
     left: 10%;
     width: 240px;
+    height: calc(100vh - 70px);
+    overflow: hidden;
+    overflow-y: auto;
 }
 
 .radius{
@@ -69,9 +72,14 @@ button{
     width: 20.6%;
 }
 
+.f-center{
+    display: flex;
+    align-items: center;
+}
+
 .section-header{
     position: fixed;
-    width: 38.4%;
+    width: 36.9%;
     padding: 10px;
     background: white;
     top: 0;
@@ -87,6 +95,10 @@ button{
     margin: 20px 0 0 0;
     width: 100%;
     outline: none;
+}
+
+.s-md{
+    max-height: 65px;
 }
 
 .img{
@@ -154,11 +166,14 @@ section{
 .menu-list{
     text-decoration: blink;
     color:black;  
+    display: flex;
+    align-items: center;
 }
 .home-side-svg:hover{
     padding: 5px;
     border-radius: 100%;
     background: rgb(29 161 242 / 37%);
+    cursor: pointer;
 }
 
 .menu-list:hover{
@@ -167,6 +182,9 @@ section{
     border-radius: 100px;
     fill: rgb(29, 161, 242);
     color: rgb(29 161 242);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 
 .under-post{
@@ -184,6 +202,7 @@ a{
 .svg-menu-icon{
     height: 24.5px;
     width: 22.18px;
+    margin: 0 10px;
 }
 
 .last-follow{
